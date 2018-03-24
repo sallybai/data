@@ -57,7 +57,7 @@ var theme = {
             }
         },
         textStyle: {
-            color: '#333'
+            color: '#ffffff'
         }
     },
 
@@ -83,7 +83,7 @@ var theme = {
         },
         axisLabel: {           // 坐标轴文本标签，详见axis.axisLabel
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#ffffff'
             }
         },
         splitLine: {           // 分隔线
@@ -101,7 +101,7 @@ var theme = {
         },
         axisLabel: {           // 坐标轴文本标签，详见axis.axisLabel
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#ffffff'
             }
         },
         splitLine: {           // 分隔线
@@ -118,7 +118,7 @@ var theme = {
     polar : {
         name : {
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#ffffff'
             }
         },
         axisLine: {            // 坐标轴线
@@ -142,7 +142,7 @@ var theme = {
     timeline : {
         label: {
             textStyle:{
-                color: '#ccc'
+                color: '#ffffff'
             }
         },
         lineStyle : {
