@@ -198,23 +198,7 @@
 
 		};
 
-		document.getElementById('randomizeData').addEventListener('click', function () {
-			config.data.datasets.forEach(function (dataset) {
-				dataset.data.forEach(function (dataObj, j) {
-					if (typeof dataObj === 'object') {
-						dataObj.y = randomScalingFactor();
-					} else {
-						dataset.data[j] = randomScalingFactor();
-					}
-				});
-			});
-
-			window.myLine.update();
-		});
-
 		var colorNames = Object.keys(window.chartColors);
-		colorNames[7] = 'white'
-		console.log(colorNames);
 		document.getElementById('addDataset').addEventListener('click', function () {
 			var colorName = colorNames[config.data.datasets.length % colorNames.length];
 			var newColor = window.chartColors[colorName];
