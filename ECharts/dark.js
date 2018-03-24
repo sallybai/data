@@ -22,7 +22,7 @@ var theme = {
     // 图例
     legend: {
         textStyle: {
-            color: '#ccc'          // 图例文字颜色
+            color: '#fff'          // 图例文字颜色
         }
     },
 
@@ -31,7 +31,7 @@ var theme = {
         itemWidth: 15,
         color: ['#FFF808','#21BCF9'],
         textStyle: {
-            color: '#ccc'          // 值域文字颜色
+            color: '#fff'          // 值域文字颜色
         }
     },
 
@@ -57,7 +57,7 @@ var theme = {
             }
         },
         textStyle: {
-            color: '#333'
+            color: '#fff'
         }
     },
 
@@ -83,7 +83,7 @@ var theme = {
         },
         axisLabel: {           // 坐标轴文本标签，详见axis.axisLabel
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#fff'
             }
         },
         splitLine: {           // 分隔线
@@ -101,7 +101,7 @@ var theme = {
         },
         axisLabel: {           // 坐标轴文本标签，详见axis.axisLabel
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#fff'
             }
         },
         splitLine: {           // 分隔线
@@ -118,7 +118,7 @@ var theme = {
     polar : {
         name : {
             textStyle: {       // 其余属性默认使用全局文本样式，详见TEXTSTYLE
-                color: '#ccc'
+                color: '#fff'
             }
         },
         axisLine: {            // 坐标轴线
@@ -142,7 +142,7 @@ var theme = {
     timeline : {
         label: {
             textStyle:{
-                color: '#ccc'
+                color: '#fff'
             }
         },
         lineStyle : {
