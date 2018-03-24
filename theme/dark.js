@@ -22,7 +22,7 @@ var theme = {
     // 图例
     legend: {
         textStyle: {
-            color: '#ccc'          // 图例文字颜色
+            color: '#fff'          // 图例文字颜色
         }
     },
 
@@ -31,7 +31,7 @@ var theme = {
         itemWidth: 15,
         color: ['#FFF808','#21BCF9'],
         textStyle: {
-            color: '#ccc'          // 值域文字颜色
+            color: '#fff'          // 值域文字颜色
         }
     },
 
