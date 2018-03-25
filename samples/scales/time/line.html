@@ -41,16 +41,16 @@
 			type: 'line',
 			data: {
 				labels: [ // Date Objects
-					newDate(0),
+					/* newDate(0),
 					newDate(1),
 					newDate(2),
 					newDate(3),
-					newDate(4)/* ,
+					newDate(4),
 					newDate(5),
 					newDate(6) */
 				],
 				datasets: [{
-					label: 'Sponsor',
+					label: 'Donor',
 					backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
 					borderColor: window.chartColors.red,
 					fill: false,
@@ -58,17 +58,20 @@
 						x: newDateString(0),
 						y: 0
 					}, {
-						x: newDateString(200),
-						y: 100000
-					}, {
-						x: newDateString(350),
+						x: newDateString(90),
 						y: 200000
 					}, {
-						x: newDateString(500),
-						y: 450000
+						x: newDateString(210),
+						y: 300000
 					}, {
-						x: newDateString(650),
-						y: 600000
+						x: newDateString(365),
+						y: 350000
+					}, {
+						x: newDateString(455),
+						y: 360000
+					}, {
+						x: newDateString(635),
+						y: 370000
 					}],
 					/* data: [
 						randomScalingFactor(),
@@ -80,7 +83,7 @@
 						randomScalingFactor() 
 					],*/
 				}, {
-					label: 'Member',
+					label: 'Cutomer',
 					backgroundColor: color(window.chartColors.blue).alpha(0.5).rgbString(),
 					borderColor: window.chartColors.blue,
 					fill: false,
@@ -88,17 +91,20 @@
 						x: newDateString(0),
 						y: 0
 					}, {
-						x: newDateString(200),
+						x: newDateString(90),
 						y: 0
 					}, {
-						x: newDateString(350),
-						y: 10000
+						x: newDateString(210),
+						y: 0
 					}, {
-						x: newDateString(500),
-						y: 50000
-					}, {
-						x: newDateString(650),
+						x: newDateString(365),
 						y: 100000
+					}, {
+						x: newDateString(455),
+						y: 300000
+					}, {
+						x: newDateString(635),
+						y: 750000
 					}],
 					/* data: [
 
@@ -111,7 +117,7 @@
 						randomScalingFactor() 
 					],*/
 				}, {
-					label: 'Tuition',
+					label: 'Partner',
 					backgroundColor: color(window.chartColors.green).alpha(0.5).rgbString(),
 					borderColor: window.chartColors.green,
 					fill: false,
@@ -119,42 +125,25 @@
 						x: newDateString(0),
 						y: 0
 					}, {
-						x: newDateString(200),
+						x: newDateString(90),
 						y: 0
 					}, {
-						x: newDateString(350),
-						y: 25000
-					}, {
-						x: newDateString(500),
-						y: 64000
-					}, {
-						x: newDateString(650),
-						y: 83000
-					}],
-				}, {
-					label: 'Ads',
-					backgroundColor: color(window.chartColors.yellow).alpha(0.5).rgbString(),
-					borderColor: window.chartColors.yellow,
-					fill: false,
-					data: [{
-						x: newDateString(0),
+						x: newDateString(210),
 						y: 0
 					}, {
-						x: newDateString(200),
+						x: newDateString(365),
 						y: 0
 					}, {
-						x: newDateString(350),
+						x: newDateString(455),
 						y: 0
 					}, {
-						x: newDateString(500),
-						y: 3000
-					}, {
-						x: newDateString(650),
-						y: 12300
+						x: newDateString(635),
+						y: 100000
 					}],
 				}]
 			},
 			options: {
+
 				legend: {
 					labels: {
 						fontColor: "white"
@@ -172,7 +161,7 @@
 							tooltipFormat: 'll HH:mm'
 						},
 						scaleLabel: {
-							display: true,
+							display: false,
 							labelString: 'Date'
 						},
 						ticks: {
@@ -181,7 +170,7 @@
 					}],
 					yAxes: [{
 						scaleLabel: {
-							display: true,
+							display: false,
 							labelString: 'value'
 						},
 						ticks: {
